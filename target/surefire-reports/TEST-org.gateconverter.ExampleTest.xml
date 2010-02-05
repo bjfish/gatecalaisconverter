@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" skipped="0" tests="1" time="1.613" failures="0" name="org.gateconverter.ExampleTest">
+  <properties>
+    <property value="Sun Microsystems Inc." name="java.vendor"/>
+    <property value="C:\Documents and Settings\Developer\.m2\repository" name="localRepository"/>
+    <property value="SUN_STANDARD" name="sun.java.launcher"/>
+    <property value="HotSpot Client Compiler" name="sun.management.compiler"/>
+    <property value="$P$G" name="env.PROMPT"/>
+    <property value="Windows XP" name="os.name"/>
+    <property value="NO" name="env.FP_NO_HOST_CHECK"/>
+    <property value="C:\Program Files\Java\jdk1.5.0_21\jre\lib\rt.jar;C:\Program Files\Java\jdk1.5.0_21\jre\lib\i18n.jar;C:\Program Files\Java\jdk1.5.0_21\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.5.0_21\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.5.0_21\jre\lib\jce.jar;C:\Program Files\Java\jdk1.5.0_21\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.5.0_21\jre\classes" name="sun.boot.class.path"/>
+    <property value="ACCENTUR-B9DD62" name="env.COMPUTERNAME"/>
+    <property value="C:\Documents and Settings\All Users" name="env.ALLUSERSPROFILE"/>
+    <property value="windows" name="sun.desktop"/>
+    <property value="Sun Microsystems Inc." name="java.vm.specification.vendor"/>
+    <property value="1.5.0_21-b01" name="java.runtime.version"/>
+    <property value="\Documents and Settings\Developer" name="env.HOMEPATH"/>
+    <property value="Developer" name="user.name"/>
+    <property value="en" name="user.language"/>
+    <property value="C:\Program Files\Java\jdk1.5.0_21\jre\bin" name="sun.boot.library.path"/>
+    <property value="C:\workspace\.metadata\.plugins\org.maven.ide.eclipse\launches\m2conf210281324045744571.tmp" name="classworlds.conf"/>
+    <property value="1.5.0_21" name="java.version"/>
+    <property value="x86 Family 6 Model 15 Stepping 11, GenuineIntel" name="env.PROCESSOR_IDENTIFIER"/>
+    <property value="" name="user.timezone"/>
+    <property value="Console" name="env.CLIENTNAME"/>
+    <property value="C:\DOCUME~1\DEVELO~1\LOCALS~1\Temp" name="env.TEMP"/>
+    <property value="32" name="sun.arch.data.model"/>
+    <property value="C:\Program Files\Java\jdk1.5.0_21\jre\lib\endorsed" name="java.endorsed.dirs"/>
+    <property value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" name="sun.cpu.isalist"/>
+    <property value="C:" name="env.HOMEDRIVE"/>
+    <property value="Cp1252" name="sun.jnu.encoding"/>
+    <property value="sun.io" name="file.encoding.pkg"/>
+    <property value="\" name="file.separator"/>
+    <property value="Java Platform API Specification" name="java.specification.name"/>
+    <property value="49.0" name="java.class.version"/>
+    <property value="US" name="user.country"/>
+    <property value="C:\Program Files\Java\jdk1.5.0_21\jre" name="java.home"/>
+    <property value="C:\Documents and Settings\Developer\Application Data" name="env.APPDATA"/>
+    <property value="mixed mode, sharing" name="java.vm.info"/>
+    <property value="C:\WINDOWS\system32\cmd.exe" name="env.ComSpec"/>
+    <property value="Windows_NT" name="env.OS"/>
+    <property value="C:\Program Files\Common Files" name="env.CommonProgramFiles"/>
+    <property value="5.1" name="os.version"/>
+    <property value=";" name="path.separator"/>
+    <property value="1.5.0_21-b01" name="java.vm.version"/>
+    <property value="" name="user.variant"/>
+    <property value="C:\Documents and Settings\Developer" name="env.USERPROFILE"/>
+    <property value="C:\Program Files\Java\jdk1.5.0_21" name="env.JAVA_HOME"/>
+    <property value="sun.awt.windows.WPrinterJob" name="java.awt.printerjob"/>
+    <property value="C:\DOCUME~1\DEVELO~1\LOCALS~1\Temp" name="env.TMP"/>
+    <property value="UnicodeLittle" name="sun.io.unicode.encoding"/>
+    <property value="sun.awt.windows.WToolkit" name="awt.toolkit"/>
+    <property value="C:\Documents and Settings\Developer" name="user.home"/>
+    <property value="Console" name="env.SESSIONNAME"/>
+    <property value="Sun Microsystems Inc." name="java.specification.vendor"/>
+    <property value="1" name="env.NUMBER_OF_PROCESSORS"/>
+    <property value="C:\Program Files\Java\jdk1.5.0_21\bin;.;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.5.0_21\bin;C:\Program Files\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\grails-1.2.0\bin;C:\Program Files\Java\jdk1.5.0_21\bin" name="java.library.path"/>
+    <property value="http://java.sun.com/" name="java.vendor.url"/>
+    <property value="Sun Microsystems Inc." name="java.vm.vendor"/>
+    <property value="EMBEDDED" name="maven.home"/>
+    <property value="Java(TM) 2 Runtime Environment, Standard Edition" name="java.runtime.name"/>
+    <property value="/C:/Program Files/SpringSource/sts-2.3.0.RELEASE/plugins/org.maven.ide.components.maven_embedder_2.1.0.20080530-2300/jars/plexus-classworlds-1.2-alpha-12.jar" name="java.class.path"/>
+    <property value="Java Virtual Machine Specification" name="java.vm.specification.name"/>
+    <property value="\\ACCENTUR-B9DD62" name="env.LOGONSERVER"/>
+    <property value="C:\WINDOWS" name="env.windir"/>
+    <property value="1.0" name="java.vm.specification.version"/>
+    <property value="x86" name="env.PROCESSOR_ARCHITECTURE"/>
+    <property value="C:\workspace\.metadata\.plugins\org.maven.ide.eclipse\workspacestate.properties" name="m2eclipse.workspace.state"/>
+    <property value="little" name="sun.cpu.endian"/>
+    <property value="Service Pack 2" name="sun.os.patch.level"/>
+    <property value="C:\workspace\gatecalaisconverter\target\test-classes;C:\workspace\gatecalaisconverter\target\classes;C:\Documents and Settings\Developer\.m2\repository\org\codehaus\groovy\maven\runtime\gmaven-runtime-1.6\1.0\gmaven-runtime-1.6-1.0.jar;C:\Documents and Settings\Developer\.m2\repository\org\slf4j\slf4j-api\1.5.6\slf4j-api-1.5.6.jar;C:\Documents and Settings\Developer\.m2\repository\org\codehaus\groovy\maven\feature\gmaven-feature-support\1.0\gmaven-feature-support-1.0.jar;C:\Documents and Settings\Developer\.m2\repository\org\codehaus\groovy\maven\feature\gmaven-feature-api\1.0\gmaven-feature-api-1.0.jar;C:\Documents and Settings\Developer\.m2\repository\org\codehaus\groovy\maven\runtime\gmaven-runtime-support\1.0\gmaven-runtime-support-1.0.jar;C:\Documents and Settings\Developer\.m2\repository\org\codehaus\groovy\maven\runtime\gmaven-runtime-api\1.0\gmaven-runtime-api-1.0.jar;C:\Documents and Settings\Developer\.m2\repository\org\codehaus\groovy\maven\gmaven-common\1.0\gmaven-common-1.0.jar;C:\Documents and Settings\Developer\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.5\plexus-utils-1.5.5.jar;C:\Documents and Settings\Developer\.m2\repository\com\thoughtworks\qdox\qdox\1.8\qdox-1.8.jar;C:\Documents and Settings\Developer\.m2\repository\org\codehaus\groovy\groovy-all\1.6.0\groovy-all-1.6.0.jar;C:\Documents and Settings\Developer\.m2\repository\org\apache\ant\ant\1.7.1\ant-1.7.1.jar;C:\Documents and Settings\Developer\.m2\repository\org\apache\ant\ant-launcher\1.7.1\ant-launcher-1.7.1.jar;C:\Documents and Settings\Developer\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Documents and Settings\Developer\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Documents and Settings\Developer\.m2\repository\gate\gate\1.0\gate-1.0.jar;C:\Documents and Settings\Developer\.m2\repository\com\thoughtworks\xstream\xstream\1.2\xstream-1.2.jar;C:\Documents and Settings\Developer\.m2\repository\xpp3\xpp3_min\1.1.3.4.O\xpp3_min-1.1.3.4.O.jar;C:\Documents and Settings\Developer\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;" name="surefire.test.class.path"/>
+    <property value="C:\Program Files" name="env.ProgramFiles"/>
+    <property value="0f0b" name="env.PROCESSOR_REVISION"/>
+    <property value="C:\DOCUME~1\DEVELO~1\LOCALS~1\Temp\" name="java.io.tmpdir"/>
+    <property value="http://java.sun.com/cgi-bin/bugreport.cgi" name="java.vendor.url.bug"/>
+    <property value="C:\WINDOWS" name="env.SystemRoot"/>
+    <property value="sun.awt.Win32GraphicsEnvironment" name="java.awt.graphicsenv"/>
+    <property value="x86" name="os.arch"/>
+    <property value="C:\Program Files\Java\jdk1.5.0_21\jre\lib\ext" name="java.ext.dirs"/>
+    <property value="C:\workspace\gatecalaisconverter" name="user.dir"/>
+    <property value="
+" name="line.separator"/>
+    <property value="Java HotSpot(TM) Client VM" name="java.vm.name"/>
+    <property value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH" name="env.PATHEXT"/>
+    <property value="C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.5.0_21\bin;C:\Program Files\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\grails-1.2.0\bin;C:\Program Files\Java\jdk1.5.0_21\bin" name="env.Path"/>
+    <property value="C:\workspace\gatecalaisconverter" name="basedir"/>
+    <property value="true" name="maven.mode.standalone"/>
+    <property value="Developer" name="env.USERNAME"/>
+    <property value="C:" name="env.SystemDrive"/>
+    <property value="Cp1252" name="file.encoding"/>
+    <property value="C:\grails-1.2.0" name="env.GRAILS_HOME"/>
+    <property value="ACCENTUR-B9DD62" name="env.USERDOMAIN"/>
+    <property value="1.5" name="java.specification.version"/>
+    <property value="6" name="env.PROCESSOR_LEVEL"/>
+  </properties>
+  <testcase classname="org.gateconverter.ExampleTest" time="0.701" name="testShow"/>
+</testsuite>

@@ -1,0 +1,1104 @@
+<gate.corpora.DocumentImpl>
+  <preserveOriginalContent>false</preserveOriginalContent>
+  <collectRepositioningInfo>false</collectRepositioningInfo>
+  <nextAnnotationId>31</nextAnnotationId>
+  <nextNodeId>21</nextNodeId>
+  <content class="gate.corpora.DocumentContentImpl">
+    <content>This is an example of something about Ontology being annotated.</content>
+    <originalContent>This is an example of something about Ontology being annotated.</originalContent>
+  </content>
+  <encoding>windows-1252</encoding>
+  <ORDER__ON__START__OFFSET>0</ORDER__ON__START__OFFSET>
+  <ORDER__ON__END__OFFSET>1</ORDER__ON__END__OFFSET>
+  <ORDER__ON__ANNOT__ID>2</ORDER__ON__ANNOT__ID>
+  <ASC>3</ASC>
+  <DESC>-3</DESC>
+  <defaultAnnots class="gate.annotation.AnnotationSetImpl" serialization="custom">
+    <unserializable-parents/>
+    <gate.annotation.AnnotationSetImpl>
+      <default>
+        <doc reference="../../../.."/>
+        <annotations>
+          <gate.annotation.AnnotationImpl>
+            <id>15</id>
+            <type>SpaceToken</type>
+            <start class="gate.annotation.NodeImpl">
+              <id>15</id>
+              <offset>46</offset>
+            </start>
+            <end class="gate.annotation.NodeImpl">
+              <id>16</id>
+              <offset>47</offset>
+            </end>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>3</capacity>
+                  <count>3</count>
+                  <theKeys>
+                    <string>string</string>
+                    <string>length</string>
+                    <string>kind</string>
+                  </theKeys>
+                  <theValues>
+                    <string> </string>
+                    <string>1</string>
+                    <string>space</string>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>30</id>
+            <type>Lookup</type>
+            <start class="gate.annotation.NodeImpl">
+              <id>14</id>
+              <offset>38</offset>
+            </start>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>12</capacity>
+                  <count>8</count>
+                  <theKeys>
+                    <string>majorType</string>
+                    <string>classURIList</string>
+                    <string>type</string>
+                    <string>propertyValue</string>
+                    <string>classURI</string>
+                    <string>URI</string>
+                    <string>heuristic_level</string>
+                    <string>propertyURI</string>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theKeys>
+                  <theValues>
+                    <string></string>
+                    <set>
+                      <string>http://gate.ac.uk/ns/gate-ontology#ResourceParameter</string>
+                    </set>
+                    <string>instance</string>
+                    <string>ontology</string>
+                    <string>http://gate.ac.uk/ns/gate-ontology#ResourceParameter</string>
+                    <string>http://gate.ac.uk/ns/gate-ontology#MontrealTransducerMontrealTransducerOntology</string>
+                    <int>0</int>
+                    <string>http://gate.ac.uk/ns/gate-ontology#parameterHasName</string>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>8</id>
+            <type>Token</type>
+            <start class="gate.annotation.NodeImpl">
+              <id>8</id>
+              <offset>19</offset>
+            </start>
+            <end class="gate.annotation.NodeImpl">
+              <id>9</id>
+              <offset>21</offset>
+            </end>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>6</capacity>
+                  <count>6</count>
+                  <theKeys>
+                    <string>string</string>
+                    <string>length</string>
+                    <string>orth</string>
+                    <string>kind</string>
+                    <string>category</string>
+                    <string>root</string>
+                  </theKeys>
+                  <theValues>
+                    <string>of</string>
+                    <string>2</string>
+                    <string>lowercase</string>
+                    <string>word</string>
+                    <string>IN</string>
+                    <string>of</string>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>23</id>
+            <type>Lookup</type>
+            <start class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[2]/start"/>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>12</capacity>
+                  <count>8</count>
+                  <theKeys>
+                    <string>majorType</string>
+                    <string>classURIList</string>
+                    <string>type</string>
+                    <string>propertyValue</string>
+                    <string>classURI</string>
+                    <string>URI</string>
+                    <string>heuristic_level</string>
+                    <string>propertyURI</string>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theKeys>
+                  <theValues>
+                    <string></string>
+                    <set>
+                      <string>http://gate.ac.uk/ns/gate-ontology#ResourceParameter</string>
+                    </set>
+                    <string>instance</string>
+                    <string>ontology</string>
+                    <string>http://gate.ac.uk/ns/gate-ontology#ResourceParameter</string>
+                    <string>http://gate.ac.uk/ns/gate-ontology#OBGOntoRootGazetteerOntology</string>
+                    <int>0</int>
+                    <string>http://gate.ac.uk/ns/gate-ontology#parameterHasName</string>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>16</id>
+            <type>Token</type>
+            <start class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl/end"/>
+            <end class="gate.annotation.NodeImpl">
+              <id>17</id>
+              <offset>52</offset>
+            </end>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>12</capacity>
+                  <count>7</count>
+                  <theKeys>
+                    <string>string</string>
+                    <string>length</string>
+                    <string>orth</string>
+                    <string>kind</string>
+                    <string>category</string>
+                    <string>affix</string>
+                    <string>root</string>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theKeys>
+                  <theValues>
+                    <string>being</string>
+                    <string>5</string>
+                    <string>lowercase</string>
+                    <string>word</string>
+                    <string>VBG</string>
+                    <string>ing</string>
+                    <string>be</string>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>7</id>
+            <type>SpaceToken</type>
+            <start class="gate.annotation.NodeImpl">
+              <id>7</id>
+              <offset>18</offset>
+            </start>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[3]/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>3</capacity>
+                  <count>3</count>
+                  <theKeys>
+                    <string>string</string>
+                    <string>length</string>
+                    <string>kind</string>
+                  </theKeys>
+                  <theValues>
+                    <string> </string>
+                    <string>1</string>
+                    <string>space</string>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>22</id>
+            <type>Split</type>
+            <start class="gate.annotation.NodeImpl">
+              <id>20</id>
+              <offset>63</offset>
+            </start>
+            <end class="gate.annotation.NodeImpl" reference="../start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>3</capacity>
+                  <count>1</count>
+                  <theKeys>
+                    <string>kind</string>
+                    <null/>
+                    <null/>
+                  </theKeys>
+                  <theValues>
+                    <string>external</string>
+                    <null/>
+                    <null/>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>9</id>
+            <type>SpaceToken</type>
+            <start class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[3]/end"/>
+            <end class="gate.annotation.NodeImpl">
+              <id>10</id>
+              <offset>22</offset>
+            </end>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>3</capacity>
+                  <count>3</count>
+                  <theKeys>
+                    <string>string</string>
+                    <string>length</string>
+                    <string>kind</string>
+                  </theKeys>
+                  <theValues>
+                    <string> </string>
+                    <string>1</string>
+                    <string>space</string>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>21</id>
+            <type>Sentence</type>
+            <start class="gate.annotation.NodeImpl">
+              <id>0</id>
+              <offset>0</offset>
+            </start>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[7]/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>3</capacity>
+                  <count>0</count>
+                  <theKeys>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theKeys>
+                  <theValues>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>6</id>
+            <type>Token</type>
+            <start class="gate.annotation.NodeImpl">
+              <id>6</id>
+              <offset>11</offset>
+            </start>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[6]/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>6</capacity>
+                  <count>6</count>
+                  <theKeys>
+                    <string>string</string>
+                    <string>length</string>
+                    <string>orth</string>
+                    <string>kind</string>
+                    <string>category</string>
+                    <string>root</string>
+                  </theKeys>
+                  <theValues>
+                    <string>example</string>
+                    <string>7</string>
+                    <string>lowercase</string>
+                    <string>word</string>
+                    <string>NN</string>
+                    <string>example</string>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>1</id>
+            <type>SpaceToken</type>
+            <start class="gate.annotation.NodeImpl">
+              <id>1</id>
+              <offset>4</offset>
+            </start>
+            <end class="gate.annotation.NodeImpl">
+              <id>2</id>
+              <offset>5</offset>
+            </end>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>3</capacity>
+                  <count>3</count>
+                  <theKeys>
+                    <string>string</string>
+                    <string>length</string>
+                    <string>kind</string>
+                  </theKeys>
+                  <theValues>
+                    <string> </string>
+                    <string>1</string>
+                    <string>space</string>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>29</id>
+            <type>Lookup</type>
+            <start class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[2]/start"/>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>12</capacity>
+                  <count>8</count>
+                  <theKeys>
+                    <string>majorType</string>
+                    <string>classURIList</string>
+                    <string>type</string>
+                    <string>propertyValue</string>
+                    <string>classURI</string>
+                    <string>URI</string>
+                    <string>heuristic_level</string>
+                    <string>propertyURI</string>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theKeys>
+                  <theValues>
+                    <string></string>
+                    <set>
+                      <string>http://gate.ac.uk/ns/gate-ontology#ResourceParameter</string>
+                    </set>
+                    <string>instance</string>
+                    <string>ontology</string>
+                    <string>http://gate.ac.uk/ns/gate-ontology#ResourceParameter</string>
+                    <string>http://gate.ac.uk/ns/gate-ontology#ANNIEJapeTransducerOntology</string>
+                    <int>0</int>
+                    <string>http://gate.ac.uk/ns/gate-ontology#parameterHasName</string>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>14</id>
+            <type>Token</type>
+            <start class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[2]/start"/>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>6</capacity>
+                  <count>6</count>
+                  <theKeys>
+                    <string>string</string>
+                    <string>length</string>
+                    <string>orth</string>
+                    <string>kind</string>
+                    <string>category</string>
+                    <string>root</string>
+                  </theKeys>
+                  <theValues>
+                    <string>Ontology</string>
+                    <string>8</string>
+                    <string>upperInitial</string>
+                    <string>word</string>
+                    <string>NNP</string>
+                    <string>ontology</string>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>24</id>
+            <type>Lookup</type>
+            <start class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[2]/start"/>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>12</capacity>
+                  <count>8</count>
+                  <theKeys>
+                    <string>majorType</string>
+                    <string>classURIList</string>
+                    <string>type</string>
+                    <string>propertyValue</string>
+                    <string>classURI</string>
+                    <string>URI</string>
+                    <string>heuristic_level</string>
+                    <string>propertyURI</string>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theKeys>
+                  <theValues>
+                    <string></string>
+                    <set>
+                      <string>http://gate.ac.uk/ns/gate-ontology#ResourceParameter</string>
+                    </set>
+                    <string>instance</string>
+                    <string>ontology</string>
+                    <string>http://gate.ac.uk/ns/gate-ontology#ResourceParameter</string>
+                    <string>http://gate.ac.uk/ns/gate-ontology#TaoOntoAnnotatorOntology</string>
+                    <int>0</int>
+                    <string>http://gate.ac.uk/ns/gate-ontology#parameterHasName</string>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>4</id>
+            <type>Token</type>
+            <start class="gate.annotation.NodeImpl">
+              <id>4</id>
+              <offset>8</offset>
+            </start>
+            <end class="gate.annotation.NodeImpl">
+              <id>5</id>
+              <offset>10</offset>
+            </end>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>6</capacity>
+                  <count>6</count>
+                  <theKeys>
+                    <string>string</string>
+                    <string>length</string>
+                    <string>orth</string>
+                    <string>kind</string>
+                    <string>category</string>
+                    <string>root</string>
+                  </theKeys>
+                  <theValues>
+                    <string>an</string>
+                    <string>2</string>
+                    <string>lowercase</string>
+                    <string>word</string>
+                    <string>DT</string>
+                    <string>an</string>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>19</id>
+            <type>Token</type>
+            <start class="gate.annotation.NodeImpl">
+              <id>19</id>
+              <offset>62</offset>
+            </start>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[7]/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>6</capacity>
+                  <count>5</count>
+                  <theKeys>
+                    <string>string</string>
+                    <string>length</string>
+                    <string>kind</string>
+                    <string>category</string>
+                    <string>root</string>
+                    <null/>
+                  </theKeys>
+                  <theValues>
+                    <string>.</string>
+                    <string>1</string>
+                    <string>punctuation</string>
+                    <string>.</string>
+                    <string>.</string>
+                    <null/>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>26</id>
+            <type>Lookup</type>
+            <start class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[2]/start"/>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>12</capacity>
+                  <count>8</count>
+                  <theKeys>
+                    <string>majorType</string>
+                    <string>classURIList</string>
+                    <string>type</string>
+                    <string>propertyValue</string>
+                    <string>classURI</string>
+                    <string>URI</string>
+                    <string>heuristic_level</string>
+                    <string>propertyURI</string>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theKeys>
+                  <theValues>
+                    <string></string>
+                    <set>
+                      <string>http://gate.ac.uk/ns/gate-ontology#VisualResource</string>
+                    </set>
+                    <string>instance</string>
+                    <string>Ontology</string>
+                    <string>http://gate.ac.uk/ns/gate-ontology#VisualResource</string>
+                    <string>http://gate.ac.uk/ns/gate-ontology#OntologyToolsOntology</string>
+                    <int>0</int>
+                    <string>http://gate.ac.uk/ns/gate-ontology#resourceHasName</string>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>11</id>
+            <type>SpaceToken</type>
+            <start class="gate.annotation.NodeImpl">
+              <id>11</id>
+              <offset>31</offset>
+            </start>
+            <end class="gate.annotation.NodeImpl">
+              <id>12</id>
+              <offset>32</offset>
+            </end>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>3</capacity>
+                  <count>3</count>
+                  <theKeys>
+                    <string>string</string>
+                    <string>length</string>
+                    <string>kind</string>
+                  </theKeys>
+                  <theValues>
+                    <string> </string>
+                    <string>1</string>
+                    <string>space</string>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>18</id>
+            <type>Token</type>
+            <start class="gate.annotation.NodeImpl">
+              <id>18</id>
+              <offset>53</offset>
+            </start>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[16]/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>6</capacity>
+                  <count>6</count>
+                  <theKeys>
+                    <string>string</string>
+                    <string>length</string>
+                    <string>orth</string>
+                    <string>kind</string>
+                    <string>category</string>
+                    <string>root</string>
+                  </theKeys>
+                  <theValues>
+                    <string>annotated</string>
+                    <string>9</string>
+                    <string>lowercase</string>
+                    <string>word</string>
+                    <string>JJ</string>
+                    <string>annotated</string>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>3</id>
+            <type>SpaceToken</type>
+            <start class="gate.annotation.NodeImpl">
+              <id>3</id>
+              <offset>7</offset>
+            </start>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[15]/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>3</capacity>
+                  <count>3</count>
+                  <theKeys>
+                    <string>string</string>
+                    <string>length</string>
+                    <string>kind</string>
+                  </theKeys>
+                  <theValues>
+                    <string> </string>
+                    <string>1</string>
+                    <string>space</string>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>12</id>
+            <type>Token</type>
+            <start class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[18]/end"/>
+            <end class="gate.annotation.NodeImpl">
+              <id>13</id>
+              <offset>37</offset>
+            </end>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>6</capacity>
+                  <count>6</count>
+                  <theKeys>
+                    <string>string</string>
+                    <string>length</string>
+                    <string>orth</string>
+                    <string>kind</string>
+                    <string>category</string>
+                    <string>root</string>
+                  </theKeys>
+                  <theValues>
+                    <string>about</string>
+                    <string>5</string>
+                    <string>lowercase</string>
+                    <string>word</string>
+                    <string>IN</string>
+                    <string>about</string>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>27</id>
+            <type>Lookup</type>
+            <start class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[2]/start"/>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>6</capacity>
+                  <count>5</count>
+                  <theKeys>
+                    <string>majorType</string>
+                    <string>type</string>
+                    <string>URI</string>
+                    <string>heuristic_level</string>
+                    <string>propertyURI</string>
+                    <null/>
+                  </theKeys>
+                  <theValues>
+                    <string></string>
+                    <string>class</string>
+                    <string>http://gate.ac.uk/ns/gate-ontology#OntologyLR</string>
+                    <int>0</int>
+                    <string>http://www.w3.org/2000/01/rdf-schema#label</string>
+                    <null/>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>17</id>
+            <type>SpaceToken</type>
+            <start class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[5]/end"/>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[19]/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>3</capacity>
+                  <count>3</count>
+                  <theKeys>
+                    <string>string</string>
+                    <string>length</string>
+                    <string>kind</string>
+                  </theKeys>
+                  <theValues>
+                    <string> </string>
+                    <string>1</string>
+                    <string>space</string>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>2</id>
+            <type>Token</type>
+            <start class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[11]/end"/>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[20]/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>12</capacity>
+                  <count>7</count>
+                  <theKeys>
+                    <string>string</string>
+                    <string>length</string>
+                    <string>orth</string>
+                    <string>kind</string>
+                    <string>category</string>
+                    <string>affix</string>
+                    <string>root</string>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theKeys>
+                  <theValues>
+                    <string>is</string>
+                    <string>2</string>
+                    <string>lowercase</string>
+                    <string>word</string>
+                    <string>VBZ</string>
+                    <string>s</string>
+                    <string>be</string>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>13</id>
+            <type>SpaceToken</type>
+            <start class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[21]/end"/>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[2]/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>3</capacity>
+                  <count>3</count>
+                  <theKeys>
+                    <string>string</string>
+                    <string>length</string>
+                    <string>kind</string>
+                  </theKeys>
+                  <theValues>
+                    <string> </string>
+                    <string>1</string>
+                    <string>space</string>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>28</id>
+            <type>Lookup</type>
+            <start class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[2]/start"/>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>12</capacity>
+                  <count>8</count>
+                  <theKeys>
+                    <string>majorType</string>
+                    <string>classURIList</string>
+                    <string>type</string>
+                    <string>propertyValue</string>
+                    <string>classURI</string>
+                    <string>URI</string>
+                    <string>heuristic_level</string>
+                    <string>propertyURI</string>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theKeys>
+                  <theValues>
+                    <string></string>
+                    <set>
+                      <string>http://gate.ac.uk/ns/gate-ontology#ResourceParameter</string>
+                    </set>
+                    <string>instance</string>
+                    <string>ontology</string>
+                    <string>http://gate.ac.uk/ns/gate-ontology#ResourceParameter</string>
+                    <string>http://gate.ac.uk/ns/gate-ontology#JapeCompilerOntotextJapecTransducerOntology</string>
+                    <int>0</int>
+                    <string>http://gate.ac.uk/ns/gate-ontology#parameterHasName</string>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>20</id>
+            <type>Split</type>
+            <start class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[16]/start"/>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[7]/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>3</capacity>
+                  <count>1</count>
+                  <theKeys>
+                    <string>kind</string>
+                    <null/>
+                    <null/>
+                  </theKeys>
+                  <theValues>
+                    <string>internal</string>
+                    <null/>
+                    <null/>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>25</id>
+            <type>Lookup</type>
+            <start class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[2]/start"/>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>12</capacity>
+                  <count>8</count>
+                  <theKeys>
+                    <string>majorType</string>
+                    <string>classURIList</string>
+                    <string>type</string>
+                    <string>propertyValue</string>
+                    <string>classURI</string>
+                    <string>URI</string>
+                    <string>heuristic_level</string>
+                    <string>propertyURI</string>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theKeys>
+                  <theValues>
+                    <string></string>
+                    <set>
+                      <string>http://gate.ac.uk/ns/gate-ontology#ResourceParameter</string>
+                    </set>
+                    <string>instance</string>
+                    <string>ontology</string>
+                    <string>http://gate.ac.uk/ns/gate-ontology#ResourceParameter</string>
+                    <string>http://gate.ac.uk/ns/gate-ontology#TaoCreole2OntologyOntology</string>
+                    <int>0</int>
+                    <string>http://gate.ac.uk/ns/gate-ontology#parameterHasName</string>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>10</id>
+            <type>Token</type>
+            <start class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[8]/end"/>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[18]/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>12</capacity>
+                  <count>7</count>
+                  <theKeys>
+                    <string>string</string>
+                    <string>length</string>
+                    <string>orth</string>
+                    <string>kind</string>
+                    <string>category</string>
+                    <string>affix</string>
+                    <string>root</string>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theKeys>
+                  <theValues>
+                    <string>something</string>
+                    <string>9</string>
+                    <string>lowercase</string>
+                    <string>word</string>
+                    <string>NN</string>
+                    <string> </string>
+                    <string>something</string>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                    <null/>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>5</id>
+            <type>SpaceToken</type>
+            <start class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[15]/end"/>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[10]/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>3</capacity>
+                  <count>3</count>
+                  <theKeys>
+                    <string>string</string>
+                    <string>length</string>
+                    <string>kind</string>
+                  </theKeys>
+                  <theValues>
+                    <string> </string>
+                    <string>1</string>
+                    <string>space</string>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+          <gate.annotation.AnnotationImpl>
+            <id>0</id>
+            <type>Token</type>
+            <start class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[9]/start"/>
+            <end class="gate.annotation.NodeImpl" reference="../../gate.annotation.AnnotationImpl[11]/start"/>
+            <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+              <gate.util.SimpleMapImpl>
+                <default>
+                  <capacity>6</capacity>
+                  <count>6</count>
+                  <theKeys>
+                    <string>string</string>
+                    <string>length</string>
+                    <string>orth</string>
+                    <string>kind</string>
+                    <string>category</string>
+                    <string>root</string>
+                  </theKeys>
+                  <theValues>
+                    <string>This</string>
+                    <string>4</string>
+                    <string>upperInitial</string>
+                    <string>word</string>
+                    <string>DT</string>
+                    <string>this</string>
+                  </theValues>
+                </default>
+              </gate.util.SimpleMapImpl>
+            </features>
+          </gate.annotation.AnnotationImpl>
+        </annotations>
+      </default>
+      <boolean>true</boolean>
+      <boolean>true</boolean>
+    </gate.annotation.AnnotationSetImpl>
+  </defaultAnnots>
+  <stringContent>This is an example of something about Ontology being annotated.</stringContent>
+  <markupAware>true</markupAware>
+  <name>GATE Document_01053</name>
+  <features class="gate.util.SimpleFeatureMapImpl" serialization="custom">
+    <gate.util.SimpleMapImpl>
+      <default>
+        <capacity>3</capacity>
+        <count>1</count>
+        <theKeys>
+          <string>gate.SourceURL</string>
+          <null/>
+          <null/>
+        </theKeys>
+        <theValues>
+          <string>created from String</string>
+          <null/>
+          <null/>
+        </theValues>
+      </default>
+    </gate.util.SimpleMapImpl>
+  </features>
+</gate.corpora.DocumentImpl>

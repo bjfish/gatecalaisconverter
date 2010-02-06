@@ -1,0 +1,15 @@
+REQUIRES a GATE-5.1 install, and for the gate.jar to be installed into a local Maven repo.
+
+Modify and run the appropriate install-jars script.
+
+To test:
+
+'mvn test'
+
+To package a jar:
+
+'mvn package'
+
+To install into a local Maven repo:
+
+'mvn install'
